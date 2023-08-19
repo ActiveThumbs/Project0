@@ -370,7 +370,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 234px;
+    height: 150px;
     border-radius: 1em 1em .5em .5em;
     background-color: #5773ff;
     padding: 0em 2em;
@@ -494,8 +494,8 @@ li svg{
 }
 
 .control{
-    width: 3em;
-    height: 3em;
+    width: 1em;
+    height: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -534,7 +534,7 @@ li svg{
 
 .hbMenu{
     position: absolute;
-    top: 20px;
+    top: 11.5px;
     left: 10px;
 }
 
@@ -656,6 +656,16 @@ li svg{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .nowPlaying h1{
+        margin-bottom: .3em;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .nowPlaying h4{
+        margin-bottom: 50px;
     }
     
 }
